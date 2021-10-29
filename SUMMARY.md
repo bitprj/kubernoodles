@@ -10,8 +10,3 @@
   * [(Optional) Coding Sh\*t](kubernetes-basics/optional-coding-sh-t.md)
   * [Deploying Sh\*t](kubernetes-basics/deploying-sh-t.md)
   * [Kubectl](kubernetes-basics/kubectl.md)
-
-## The Formal Stuff
-
-* [Requesting Time Off](the-formal-stuff/requesting-time-off.md)
-* [Filing Expenses](the-formal-stuff/filing-expenses.md)
