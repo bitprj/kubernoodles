@@ -2,6 +2,12 @@
 
 You should already have a working Kubernetes cluster with a namespace containing your microservices. In this step, we're going to be adding on namespaces to house Strimzi.
 
+### What is Kafka?
+Apache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. ([Source](https://kafka.apache.org/))
+
+### Ok, what is Strimzi?
+Strimzi provides a way to run an Apache Kafka cluster on Kubernetes in various deployment configurations. For development it’s easy to set up a cluster in Minikube in a few minutes. For production you can tailor the cluster to your needs, using features such as rack awareness to spread brokers across availability zones, and Kubernetes taints and tolerations to run Kafka on dedicated nodes. ([Source](https://strimzi.io/))
+
 ## Downloading Strimzi
 
 Download the most recent [Strimzi version (ex: strimzi-0.26.0.zip)](https://github.com/strimzi/strimzi-kafka-operator/releases) release.
