@@ -116,3 +116,18 @@ In our case, the `fetch-service` will send requests to the manipulation service,
     value: nginx:80
 ```
 
+## Applying HPA to the Service
+*Make sure to apply the new kube files and restart the deployments.*
+Run the below command to start HPA, making sure to change `manipulation-service` to the name of the deployment that you want to autoscale.
+```
+kubectl autoscale deployment manipulation-service --cpu-percent=50 --min=1 --max=10
+horizontalpodautoscaler.autoscaling/manipulation-service autoscaled
+```
+
+## Testing it out
+
+```
+➜  tinyhats-hpa git:(master) ✗ kubectl get deployment manipulation-service
+NAME                   READY   UP-TO-DATE   AVAILABLE   AGE
+manipulation-service   1/1     1            1           26m
+```
