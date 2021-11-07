@@ -8,5 +8,4 @@
     * [GCP](kubernetes-basics/installing-sh-t/gcp.md)
     * [GKE](kubernetes-basics/installing-sh-t/gke.md)
   * [Kubectl](kubernetes-basics/kubectl.md)
-  * [(Optional) Coding Sh\*t](kubernetes-basics/optional-coding-sh-t.md)
   * [Kubernetes basics](kubernetes-basics/commands/README.md)
